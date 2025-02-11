@@ -11,12 +11,16 @@ export default {
 <template>
   <header>
     <div>
-      <img src="/public/logo.png" alt="logo">
+     <a href="#">
+       <img src="/public/logo.png" alt="logo">
+     </a>
+      
     </div>
     <div>
       <button class="button-header">Cerca</button>
     </div>
     <div>
+      <i class="fa-regular fa-heart"></i>
 
     </div>
 
@@ -30,6 +34,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 header img{
   max-width: 100px;
