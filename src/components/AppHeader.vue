@@ -48,6 +48,10 @@ header{
 header img{
   max-width: 100px;
 }
+
+
+
+
 .button-header{
   padding: 0 80px;
   background-color: white;
@@ -65,9 +69,22 @@ header img{
   color: black;     /* Colore del bordo */
   cursor: pointer;
 }
+
+.fa-heart:hover {
+  font-size: 24px;  /* Dimensione */
+  color: red;     /* Colore del bordo */
+  cursor: pointer;
+}
+
 .fa-house {
   font-size: 24px;  /* Dimensione */
   color: black;     /* Colore nero */
+}
+
+.fa-house:hover {
+  font-size: 24px;  /* Dimensione */
+  color: red;     /* Colore del bordo */
+  cursor: pointer;
 }
 
 .profile-circle {
