@@ -38,6 +38,8 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 header{
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
